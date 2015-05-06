@@ -1,6 +1,8 @@
 set nocompatible
 
-source ~/.vimrc.d/plugins.vim
+for vimfile in split(glob('~/.vimrc.d/*.vim'), '\n')
+  exec "source" vimfile
+endfor
 
 filetype plugin indent on
 syntax on
