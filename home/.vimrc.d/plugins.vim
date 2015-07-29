@@ -7,6 +7,7 @@ call vundle#begin()
 Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'ervandew/supertab'
 Plugin 'gmarik/vundle.vim'
+Plugin 'isRuslan/vim-es6'
 Plugin 'itchyny/lightline.vim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
