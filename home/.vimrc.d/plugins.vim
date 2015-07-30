@@ -5,6 +5,7 @@ set rtp+=~/.vim/bundle/vundle.vim
 call vundle#begin()
 
 Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'digitaltoad/vim-jade'
 Plugin 'ervandew/supertab'
 Plugin 'gmarik/vundle.vim'
 Plugin 'isRuslan/vim-es6'
