@@ -6,8 +6,9 @@ endfor
 
 filetype plugin indent on
 syntax on
-colorscheme Tomorrow-Night
+colorscheme gruvbox
 
+set background=dark
 set backspace=2
 set expandtab
 set hlsearch

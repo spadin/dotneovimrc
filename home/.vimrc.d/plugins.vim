@@ -4,7 +4,6 @@ filetype off
 set rtp+=~/.vim/bundle/vundle.vim
 call vundle#begin()
 
-Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'ervandew/supertab'
 Plugin 'gmarik/vundle.vim'
@@ -13,6 +12,7 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'jgdavey/tslime.vim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'kien/ctrlp.vim'
+Plugin 'morhetz/gruvbox'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'pangloss/vim-javascript'
 Plugin 'scrooloose/nerdtree'
