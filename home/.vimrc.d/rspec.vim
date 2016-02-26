@@ -1,4 +1,4 @@
-let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
 
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
