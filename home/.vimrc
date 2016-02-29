@@ -30,3 +30,5 @@ set splitright
 set tabstop=2
 set ttyfast
 set ttymouse=xterm2
+
+let g:jsx_ext_required = 0
