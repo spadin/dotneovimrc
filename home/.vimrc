@@ -32,3 +32,5 @@ set ttyfast
 set ttymouse=xterm2
 
 let g:jsx_ext_required = 0
+let g:lightline = {}
+let g:lightline.colorscheme = 'gruvbox'
