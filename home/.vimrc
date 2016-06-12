@@ -8,6 +8,7 @@ filetype plugin indent on
 syntax on
 colorscheme gruvbox
 
+set backupcopy=no
 set background=dark
 set backspace=2
 set expandtab
