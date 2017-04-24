@@ -6,9 +6,9 @@ endfor
 
 filetype plugin indent on
 syntax on
-colorscheme gruvbox
 
-set backupcopy=no
+set nobackup
+set nowritebackup
 set background=dark
 set backspace=2
 set expandtab
@@ -31,7 +31,23 @@ set splitright
 set tabstop=2
 set ttyfast
 set ttymouse=xterm2
+set nofoldenable
+set cindent
+set cinkeys-=0#
+set indentkeys-=0#
 
 let g:jsx_ext_required = 0
 let g:lightline = {}
 let g:lightline.colorscheme = 'gruvbox'
+let g:gruvbox_contrast_dark = 'soft'
+
+let g:UltiSnipsSnippetDirectories=$HOME.'/.vimrc.d'
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+highlight Comment cterm=italic
+highlight htmlArg cterm=italic
+highlight xmlAttrib cterm=italic
+
+colorscheme gruvbox
