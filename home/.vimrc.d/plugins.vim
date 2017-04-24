@@ -4,11 +4,12 @@ filetype off
 set rtp+=~/.vim/autoload/plug.vim
 call plug#begin()
 
+Plug 'SirVer/ultisnips'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'digitaltoad/vim-jade'
 Plug 'ervandew/supertab'
 Plug 'gmarik/vundle.vim'
 Plug 'godlygeek/tabular'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'isRuslan/vim-es6'
 Plug 'itchyny/lightline.vim'
 Plug 'jelera/vim-javascript-syntax'
