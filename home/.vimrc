@@ -40,9 +40,11 @@ let g:jsx_ext_required = 0
 let g:lightline = {}
 let g:lightline.colorscheme = 'gruvbox'
 let g:gruvbox_contrast_dark = 'soft'
+let g:gruvbox_contrast_light = 'hard'
 
-let g:UltiSnipsSnippetDirectories=$HOME.'/.vimrc.d'
-let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsSnippetsDir="~/.vim/.ultisnips.d"
+let g:UltiSnipsSnippetDirectories=[".ultisnips.d"]
+let g:UltiSnipsExpandTrigger="<c-b>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
