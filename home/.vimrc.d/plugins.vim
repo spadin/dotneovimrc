@@ -4,12 +4,15 @@ filetype off
 set rtp+=~/.vim/autoload/plug.vim
 call plug#begin()
 
+Plug 'LnL7/vim-nix'
 Plug 'SirVer/ultisnips'
+Plug 'cespare/vim-toml'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'digitaltoad/vim-jade'
 Plug 'ervandew/supertab'
 Plug 'gmarik/vundle.vim'
 Plug 'godlygeek/tabular'
+Plug 'hashivim/vim-terraform'
 Plug 'isRuslan/vim-es6'
 Plug 'itchyny/lightline.vim'
 Plug 'jelera/vim-javascript-syntax'
@@ -26,6 +29,7 @@ Plug 'raichoo/purescript-vim'
 Plug 'scrooloose/nerdtree'
 Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'slim-template/vim-slim'
+Plug 'smerrill/vcl-vim-plugin'
 Plug 'thoughtbot/vim-rspec'
 Plug 'tomtom/tcomment_vim'
 Plug 'tpope/vim-endwise'
