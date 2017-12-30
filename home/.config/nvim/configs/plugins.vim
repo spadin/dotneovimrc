@@ -1,7 +1,7 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/autoload/plug.vim
+set rtp+=~/.config/nvim/autoload/plug.vim
 call plug#begin()
 
 Plug 'LnL7/vim-nix'
