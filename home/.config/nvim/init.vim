@@ -1,6 +1,6 @@
 set nocompatible
 
-for vimfile in split(glob('~/.vimrc.d/*.vim'), '\n')
+for vimfile in split(glob('~/.config/nvim/configs/*.vim'), '\n')
   exec "source" vimfile
 endfor
 
