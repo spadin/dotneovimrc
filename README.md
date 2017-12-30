@@ -14,5 +14,5 @@ Then source the following from your `.bashrc`
 
 ## Cloning and using this castle
 
-    $ homeshick clone spadin/dotvimrc
-    $ homeshick link dotvimrc
+    $ homeshick clone spadin/dotneovimrc
+    $ homeshick link dotneovimrc
