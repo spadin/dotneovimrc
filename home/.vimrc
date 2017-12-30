@@ -30,7 +30,6 @@ set splitbelow
 set splitright
 set tabstop=2
 set ttyfast
-set ttymouse=xterm2
 set nofoldenable
 set cindent
 set cinkeys-=0#
@@ -41,12 +40,6 @@ let g:lightline = {}
 let g:lightline.colorscheme = 'gruvbox'
 let g:gruvbox_contrast_dark = 'soft'
 let g:gruvbox_contrast_light = 'hard'
-
-let g:UltiSnipsSnippetsDir="~/.vim/.ultisnips.d"
-let g:UltiSnipsSnippetDirectories=[".ultisnips.d"]
-let g:UltiSnipsExpandTrigger="<c-b>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 highlight Comment cterm=italic
 highlight htmlArg cterm=italic

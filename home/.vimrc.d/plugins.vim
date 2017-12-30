@@ -5,7 +5,6 @@ set rtp+=~/.vim/autoload/plug.vim
 call plug#begin()
 
 Plug 'LnL7/vim-nix'
-Plug 'SirVer/ultisnips'
 Plug 'cespare/vim-toml'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'digitaltoad/vim-jade'
